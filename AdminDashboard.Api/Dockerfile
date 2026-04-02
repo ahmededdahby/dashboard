@@ -12,7 +12,7 @@ WORKDIR /app
 
 COPY --from=build /app/publish .
 
-ENV ASPNETCORE_URLS=http://0.0.0.0:10000
-EXPOSE 10000
+ENV ASPNETCORE_URLS=http://0.0.0.0:7860
+EXPOSE 7860
 
 ENTRYPOINT ["dotnet", "AdminDashboard.Api.dll"]

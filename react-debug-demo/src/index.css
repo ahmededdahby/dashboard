@@ -1,0 +1,278 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #162030;
+  background: #f4f6f8;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f8;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+  margin: 0.25rem 0 0.75rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.hero-copy,
+.demo-panel p,
+.issue-list,
+.list-box,
+.result-box,
+.render-count span {
+  color: #5f6b7a;
+}
+
+.eyebrow {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.74rem;
+  color: #677487;
+}
+
+.toggle-group {
+  display: flex;
+  gap: 0.75rem;
+  background: #ffffff;
+  padding: 0.45rem;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(22, 32, 48, 0.06);
+}
+
+.toggle-button {
+  border: 1px solid #dbe3ea;
+  background: #ffffff;
+  color: #324458;
+  border-radius: 14px;
+  padding: 0.75rem 1rem;
+}
+
+.toggle-button.active {
+  background: #162030;
+  color: #ffffff;
+  border-color: #162030;
+}
+
+.stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.summary-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 1.25rem 1.4rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e5ebf0;
+  box-shadow: 0 14px 32px rgba(22, 32, 48, 0.05);
+}
+
+.summary-copy,
+.summary-note {
+  color: #5f6b7a;
+  margin: 0.2rem 0 0;
+}
+
+.summary-list {
+  margin: 0.9rem 0;
+  padding-left: 1.2rem;
+  color: #324458;
+}
+
+.large-gap {
+  gap: 1.25rem;
+}
+
+.section-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 1.4rem;
+  box-shadow: 0 14px 32px rgba(22, 32, 48, 0.06);
+}
+
+.section-heading {
+  margin-bottom: 1rem;
+}
+
+.section-heading h2 {
+  margin: 0.2rem 0 0;
+  font-size: 1.35rem;
+}
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 1rem;
+}
+
+.demo-panel {
+  background: #f9fbfc;
+  border: 1px solid #e5ebf0;
+  border-radius: 18px;
+  padding: 1rem;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.demo-label {
+  margin: 0;
+  font-weight: 700;
+  color: #b54708;
+}
+
+.demo-label.success {
+  color: #15703d;
+}
+
+.issue-list,
+.list-box {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+label {
+  display: grid;
+  gap: 0.45rem;
+  color: #324458;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid #d1dbe4;
+  border-radius: 14px;
+  padding: 0.85rem 0.95rem;
+  background: #ffffff;
+}
+
+.primary-button {
+  border: none;
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+  background: #162030;
+  color: #ffffff;
+}
+
+.primary-button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.loading-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-top-color: #ffffff;
+  animation: spin 0.8s linear infinite;
+}
+
+.result-box {
+  border-radius: 14px;
+  background: #ffffff;
+  padding: 0.9rem;
+  border: 1px solid #e1e8ef;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.helper-copy {
+  margin: 0;
+  font-size: 0.92rem;
+  color: #677487;
+}
+
+.error-banner,
+.success-banner {
+  border-radius: 14px;
+  padding: 0.85rem 0.95rem;
+}
+
+.error-banner {
+  background: #fff1f2;
+  color: #b42318;
+  border: 1px solid #fecdd3;
+}
+
+.success-banner {
+  background: #edfdf3;
+  color: #15703d;
+  border: 1px solid #b7ebc6;
+}
+
+.render-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid #e1e8ef;
+  padding: 0.75rem 0.85rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 900px) {
+  .hero,
+  .demo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    align-items: stretch;
+  }
+}
