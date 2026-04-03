@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper font-body text-slate-900 antialiased transition-colors duration-300 dark:bg-ink dark:text-slate-100;
+}
+
+#root {
+  @apply min-h-screen;
+}
+
+@layer base {
+  html {
+    @apply bg-paper dark:bg-ink;
+  }
+
+  ::selection {
+    @apply bg-brand/30 text-white;
+  }
+}
