@@ -77,6 +77,35 @@ const techItems: TechItem[] = [
     )
   },
   {
+    label: "Azure",
+    icon: (
+      <svg viewBox="0 0 64 64" className="h-8 w-8" fill="none">
+        <path d="M34 10 16 42h14l4-9 10 17 8-8-18-32Z" fill="#0EA5E9" />
+        <path d="M36 10h12L28 54H16l20-44Z" fill="#38BDF8" fillOpacity="0.78" />
+      </svg>
+    )
+  },
+  {
+    label: "CI/CD",
+    icon: (
+      <svg viewBox="0 0 64 64" className="h-8 w-8" fill="none" stroke="#22C55E" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="10" y="14" width="16" height="12" rx="3" />
+        <rect x="38" y="14" width="16" height="12" rx="3" />
+        <rect x="24" y="38" width="16" height="12" rx="3" />
+        <path d="M26 20h12M32 20v9M24 44h-8m32 0h-8" />
+      </svg>
+    )
+  },
+  {
+    label: "DevOps",
+    icon: (
+      <svg viewBox="0 0 64 64" className="h-8 w-8" fill="none" stroke="#F59E0B" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M18 24a10 10 0 0 1 19-4l9 9a10 10 0 1 1-15 13l-3-3" />
+        <path d="M46 40a10 10 0 0 1-19 4l-9-9a10 10 0 1 1 15-13l3 3" />
+      </svg>
+    )
+  },
+  {
     label: "Git",
     icon: (
       <svg viewBox="0 0 64 64" className="h-8 w-8" fill="none" stroke="#F97316" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round">

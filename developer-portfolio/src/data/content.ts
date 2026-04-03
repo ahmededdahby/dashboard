@@ -104,7 +104,7 @@ export const portfolioContent: Record<Language, PortfolioContent> = {
       location: "Morocco",
       imagePath: "/profile.png",
       tagline:
-        "I build and fix modern web applications. Specialized in dashboards, admin panels, and debugging existing systems."
+        "I build, fix, and deploy modern web applications. Specialized in dashboards, admin panels, debugging existing systems, and reliable delivery workflows."
     },
     navItems: [
       { href: "#demo-projects", label: "Demo Projects" },
@@ -129,7 +129,7 @@ export const portfolioContent: Record<Language, PortfolioContent> = {
     heroHighlights: [
       "Dashboards and admin panels",
       "Bug fixing and system improvements",
-      "Frontend and backend integration"
+      "Azure, CI/CD, and delivery workflows"
     ],
     sections: {
       demoProjects: {
@@ -148,7 +148,7 @@ export const portfolioContent: Record<Language, PortfolioContent> = {
         eyebrow: "Services",
         title: "What I can help you with",
         description:
-          "I am most useful when a project needs momentum: a dashboard built, an existing app fixed, or a slow workflow improved."
+          "I am most useful when a project needs momentum: a dashboard built, an existing app fixed, a workflow improved, or a deployment pipeline put in place."
       },
       experience: {
         eyebrow: "Experience",
@@ -160,7 +160,7 @@ export const portfolioContent: Record<Language, PortfolioContent> = {
         eyebrow: "Tech Stack",
         title: "Tools I use to ship modern products",
         description:
-          "No percentage bars, just the technologies I actually use to build dashboards, internal tools, APIs, and maintainable web applications."
+          "No percentage bars, just the technologies I actually use to build dashboards, internal tools, APIs, maintainable web applications, and reliable deployment workflows."
       },
       education: {
         eyebrow: "Education",
@@ -237,6 +237,7 @@ export const portfolioContent: Record<Language, PortfolioContent> = {
       "Build admin dashboards and internal tools",
       "Improve performance and user experience",
       "Integrate APIs and backend systems",
+      "Set up Azure, CI/CD pipelines, and deployment workflows",
       "Maintain and improve existing applications"
     ],
     experience: [
@@ -244,7 +245,7 @@ export const portfolioContent: Record<Language, PortfolioContent> = {
         role: "Software Engineer",
         company: "Aleksys Solutions",
         details:
-          "Worked on real applications including systems for the Ministry of Interior, developed features, and collaborated within a team with a focus on scalable backend/frontend integration."
+          "Worked on real applications including systems for the Ministry of Interior, developed features, and collaborated within a team with a focus on scalable backend/frontend integration and delivery workflows."
       },
       {
         role: "Freelance Web Developer",
@@ -277,7 +278,7 @@ export const portfolioContent: Record<Language, PortfolioContent> = {
       location: "Maroc",
       imagePath: "/profile.png",
       tagline:
-        "Je cree et j'amelore des applications web modernes. Specialise dans les dashboards, les panels d'administration et le debogage de systemes existants."
+        "Je cree, corrige et deploie des applications web modernes. Specialise dans les dashboards, les panels d'administration, le debogage de systemes existants et les workflows de livraison fiables."
     },
     navItems: [
       { href: "#demo-projects", label: "Projets Demo" },
@@ -302,7 +303,7 @@ export const portfolioContent: Record<Language, PortfolioContent> = {
     heroHighlights: [
       "Dashboards et panels d'administration",
       "Correction de bugs et amelioration de systemes",
-      "Integration frontend et backend"
+      "Azure, CI/CD et workflows de livraison"
     ],
     sections: {
       demoProjects: {
@@ -321,7 +322,7 @@ export const portfolioContent: Record<Language, PortfolioContent> = {
         eyebrow: "Services",
         title: "Ce que je peux vous aider a faire",
         description:
-          "Je suis le plus utile quand un projet a besoin d'avancer : construire un dashboard, corriger une application existante ou ameliorer un workflow lent."
+          "Je suis le plus utile quand un projet a besoin d'avancer : construire un dashboard, corriger une application existante, ameliorer un workflow lent ou mettre en place un pipeline de deploiement."
       },
       experience: {
         eyebrow: "Experience",
@@ -333,7 +334,7 @@ export const portfolioContent: Record<Language, PortfolioContent> = {
         eyebrow: "Stack Technique",
         title: "Les outils que j'utilise pour livrer des produits modernes",
         description:
-          "Pas de barres de pourcentage, seulement les technologies que j'utilise reellement pour construire des dashboards, des outils internes, des APIs et des applications web maintenables."
+          "Pas de barres de pourcentage, seulement les technologies que j'utilise reellement pour construire des dashboards, des outils internes, des APIs, des applications web maintenables et des workflows de deploiement fiables."
       },
       education: {
         eyebrow: "Formation",
@@ -410,6 +411,7 @@ export const portfolioContent: Record<Language, PortfolioContent> = {
       "Construire des dashboards d'administration et des outils internes",
       "Ameliorer les performances et l'experience utilisateur",
       "Integrer des APIs et des systemes backend",
+      "Mettre en place Azure, des pipelines CI/CD et des workflows de deploiement",
       "Maintenir et ameliorer des applications existantes"
     ],
     experience: [
@@ -417,7 +419,7 @@ export const portfolioContent: Record<Language, PortfolioContent> = {
         role: "Software Engineer",
         company: "Aleksys Solutions",
         details:
-          "Travail sur des applications reelles, y compris des systemes pour le Ministere de l'Interieur, avec developpement de fonctionnalites et collaboration en equipe autour de l'integration backend/frontend."
+          "Travail sur des applications reelles, y compris des systemes pour le Ministere de l'Interieur, avec developpement de fonctionnalites et collaboration en equipe autour de l'integration backend/frontend et des workflows de livraison."
       },
       {
         role: "Developpeur Web Freelance",

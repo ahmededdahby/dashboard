@@ -139,7 +139,7 @@ function App() {
                 <Reveal
                   key={service}
                   delay={index * 0.05}
-                  className={index === services.length - 1 ? "sm:col-span-2" : ""}
+                  className={index === services.length - 1 ? "" : ""}
                 >
                   <motion.div
                     whileHover={{ y: -4 }}
